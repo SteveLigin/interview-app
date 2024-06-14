@@ -1,8 +1,8 @@
 .homepageBackground {
   width: 100%;
   height: 500px;
-  background:   linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
-  url("../../assets/homeimg.jfif");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../assets/homeimg.jfif");
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,4 +32,62 @@
 .homepageRight {
   width: 40%;
   padding-right: 75px;
+}
+
+@media (max-width: 1024px) {
+  .homepageLeft {
+    padding-left: 60px;
+  }
+  .homepageLeft h1 {
+    font-size: 40px;
+  }
+  .homepageLeft p {
+    font-size: 13px;
+  }
+  .homepageRight {
+    width: 45%;
+    padding-right: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .homepageLeft {
+    padding-left: 50px;
+  }
+  .homepageLeft h1 {
+    font-size: 30px;
+  }
+  .homepageLeft p {
+    font-size: 10px;
+  }
+  .homepageRight {
+    width: 45%;
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 450px) {
+  .homepageBackground {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .homepageLeft {
+    padding-left: 40px;
+    width: 70%;
+  }
+  .homepageLeft h1 {
+    font-size: 20px;
+  }
+  .homepageLeft p {
+    font-size: 8px;
+    margin-top: 10px;
+  }
+  .homepageRight {
+    margin-top: 40px;
+    width: 70%;
+    padding-right: 40px;
+    margin-left: 40px;
+  }
 }

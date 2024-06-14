@@ -1,41 +1,48 @@
-import React from "react";
+import React, { useState } from "react";
 import "./navbar.css";
-import CallIcon from "@mui/icons-material/Call";
-import EmailIcon from "@mui/icons-material/Email";
+import { MdPhone, MdEmail } from "react-icons/md";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import flag from "../../assets/oman-flag.svg";
 import logo from "../../assets/logoallah.png";
+import { IoReorderThree } from "react-icons/io5";
 
-export default function Navabar() {
+export default function Navbar() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <nav className="navbar">
       <div className="navbarLeft">
         <div className="navbarInfoOne">
           <p className="navbarPara">
-            <CallIcon className="callIcon" />
+            <MdPhone className="callIcon" />
             (+968) 24702666
           </p>
           <p className="navbarPara">
-            <EmailIcon className="callIcon" /> info@alhabib.om
+            <MdEmail className="callIcon" /> info@alhabib.om
           </p>
         </div>
         <div className="navbarInfoTwo">
-          <img src={flag} alt="" className="navBarImg" />
+          <img src={flag} alt="Oman Flag" className="navBarImg" />
           <p>العربية</p>
         </div>
       </div>
 
       <div className="navbarRight">
         <div className="navbarLogos">
-          <img src={logo} alt="" />
+          <img src={logo} alt="Logo" />
         </div>
-        <ul className="navbarLists">
+        <IoReorderThree className="menuIcon" onClick={toggleMenu} />
+        <ul className={`navbarLists ${isMenuOpen ? "active" : ""}`}>
           <li className="navbarList">Who We Are</li>
           <li className="navbarList">
             What We Do <ExpandMoreIcon className="expandIcon" />
           </li>
           <li className="navbarList">
-            Properties <ExpandMoreIcon className="expandIcon"  />
+            Properties <ExpandMoreIcon className="expandIcon" />
           </li>
           <li className="navbarList">CSR</li>
           <li className="navbarList">Media Center</li>

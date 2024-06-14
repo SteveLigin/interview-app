@@ -1,3 +1,4 @@
+
 .navbarLeft {
   width: 100%;
   height: 40px;
@@ -21,6 +22,10 @@
   color: #fff;
   font-weight: 500;
   gap: 10px;
+}
+
+.callIcon {
+  font-size: 20px;
 }
 
 .navbarInfoTwo {
@@ -89,4 +94,126 @@
   border-radius: 8px 10px;
   font-size: 12px;
 }
+.menuIcon {
+  display: none;
+}
 /* navbar 2 completed */
+@media (max-width: 1024px) {
+  .navbarInfoOne {
+    padding-left: 60px;
+  }
+  .navbarInfoTWo {
+    padding-right: 60px;
+  }
+  .navbarPara {
+    font-size: 13px;
+  }
+
+  .callIcon {
+    font-size: 15px;
+  }
+
+  .navbarList {
+    font-size: 13px;
+  }
+  .navbarLogos img {
+    width: 100px;
+  }
+  .nabarBtn {
+    font-size: 13px;
+  }
+  .navBarImg {
+    width: 25px;
+  }
+  .navbarInfoTwo {
+    font-size: 13px;
+  }
+
+  .navbarLogos {
+    padding-left: 60px;
+  }
+  .navbarLists {
+    padding-left: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbarInfoOne {
+    padding-left: 50px;
+  }
+  .navbarInfoTWo {
+    padding-right: 50px;
+  }
+  .navbarPara {
+    font-size: 10px;
+  }
+
+  .callIcon {
+    font-size: 13px;
+  }
+
+  .navbarList {
+    font-size: 8px;
+  }
+  .navbarLogos img {
+    width: 80px;
+  }
+  .nabarBtn {
+    font-size: 10px;
+  }
+  .navBarImg {
+    width: 20px;
+  }
+  .navbarInfoTwo {
+    font-size: 10px;
+  }
+
+  .navbarLogos {
+    padding-left: 50px;
+  }
+  .navbarLists {
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 450px) {
+  .menuIcon {
+    display: block;
+    font-size: 30px;
+    margin-right: 20px;
+    margin-top: 10px;
+    z-index: 1000;
+  }
+
+  .navbarLists {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: #fff;
+    width: 100%;
+    height: 550px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    z-index: 999;
+  }
+
+  .navbarLists.active {
+    display: flex;
+  }
+
+  .navbarList {
+    font-size: 14px;
+    width: 100%;
+    text-align: left;
+    padding: 10px 25px;
+  }
+
+  .nabarBtn {
+    padding: 10px 5px;
+    font-size: 12px;
+    margin-left: 14px;
+    border-radius: 5px;
+  }
+}
