@@ -1,0 +1,92 @@
+.navbarLeft {
+  width: 100%;
+  height: 40px;
+  background-color: #005aab;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbarInfoOne {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-left: 75px;
+}
+
+.navbarPara {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 500;
+  gap: 10px;
+}
+
+.navbarInfoTwo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-right: 75px;
+}
+
+.navBarImg {
+  width: 30px;
+}
+
+.navbarInfoTwo {
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+}
+/* navone complete */
+
+.navbarRight {
+  display: flex;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.navbarLogos {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-left: 75px;
+}
+
+.navbarLogos img {
+  width: 200px;
+}
+
+.navbarLists {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-right: 75px;
+}
+
+.navbarList {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.expandIcon {
+  cursor: pointer;
+}
+
+.nabarBtn {
+  background-color: #005aab;
+  border: none;
+  padding: 15px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 8px 10px;
+  font-size: 12px;
+}
+/* navbar 2 completed */
