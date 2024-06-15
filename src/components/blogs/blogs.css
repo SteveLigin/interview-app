@@ -1,48 +1,130 @@
 .blog {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: #f8f8f8;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f8f8f8;
 }
-
 
 .blog h1 {
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-size: 40px;
-    font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: bold;
 }
-
 
 .blogSplit {
-    display: flex;
-    justify-content: space-between;
-    gap: 13px
+  display: flex;
+  justify-content: space-between;
+  gap: 13px;
 }
 
-
-
 .blogImages {
-    padding: 0 65px;
+  padding: 0 65px;
 }
 
 .blogImages img {
-    width: 300px;
-    height: 250px;
-}
-
-.blogImages span {
-    color: #6d9fcd;
-    font-size: 12px;
-    font-weight: bold;
+  width: 300px;
+  height: 250px;
 }
 
 .blogImages h5 {
-    font-size: 12px;
-    font-weight: bold;
+  color: #6d9fcd;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.blogImages h5 {
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .blogImages p {
-    font-size: 9px;
-    color: #c7c7c7;
+  font-size: 9px;
+  color: #c7c7c7;
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .blogFeature h1 {
+    font-size: 30px;
+  }
+  .blogFeature button {
+    font-size: 12px;
+  }
+  .blogImages {
+    padding: 0;
+    padding-left: 20px;
+  }
+  .blogImages h5 {
+    font-size: 8px;
+  }
+  .blogSpanLeft {
+    left: 40px;
+  }
+  .blogSpanRight {
+    left: 110px;
+  }
+  .blogIconOne {
+    left: 247px;
+  }
+  .blogIconTwo {
+    left: 280px;
+  }
+  .blogCategory {
+    left: 30px;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1023px) {
+  .blogSplit {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .blogImages h5 {
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .blogImages img {
+    width: 450px;
+    height: 250px;
+  }
+  .blogImages p {
+    font-size: 6px;
+  }
+  .blogImages {
+    padding: 0 40px;
+    margin-top: 20px;
+  }
+  .blogIconOne {
+    left: 264px;
+  }
+  .blogIconTwo {
+    left: 306px;
+  }
+  .blogCategory {
+    width: 280px;
+    background-color: #fff;
+    color: #000;
+    position: absolute;
+    bottom: 20px;
+    left: 52px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 21px rgba(0, 0, 0, 1);
+  }
+}
+
+@media (min-width: 300px) and (max-width: 700px) {
+  .blog h1 {
+    font-size: 10px;
+  }
+  .blogSplit {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .blogImages {
+    padding: 0 40px;
+  }
 }
