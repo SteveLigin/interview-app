@@ -33,9 +33,7 @@ export default function Blogs() {
                             <h5>Oil price fall and real estate market</h5>
                             <p>Oil Prices have dropped significantly in the last year. How has the real estate market in Oman reacted and what does the future hold?...</p>
                         </div>
-                
                 ))}
-
             </div>
 
         </div>

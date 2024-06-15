@@ -100,7 +100,7 @@
 }
 
 /* navbar 2 completed */
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 3000px) {
   .navbarInfoOne {
     padding-left: 60px;
   }

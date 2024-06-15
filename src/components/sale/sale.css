@@ -5,13 +5,13 @@
 .saleFeature {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 30px 75px;
+  justify-content: space-around;
+  padding: 30px 0;
 }
 
 .saleSplit {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -112,7 +112,7 @@
   color: #b3b3b3;
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 3000px) {
   .saleFeature h1 {
     font-size: 30px;
   }
@@ -187,6 +187,10 @@
     justify-content: space-between;
     flex-wrap: wrap;
   }
+  .saleImages {
+    margin-top: 30px;
+  }
+
   .saleImages img {
     width: 350px;
     height: 250px;

@@ -14,7 +14,7 @@
 
 .blogSplit {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 13px;
 }
 
@@ -43,7 +43,7 @@
   color: #c7c7c7;
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 3000px) {
   .blogFeature h1 {
     font-size: 30px;
   }
@@ -119,6 +119,7 @@
     font-size: 10px;
   }
   .blogSplit {
+    row-gap: 30px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
