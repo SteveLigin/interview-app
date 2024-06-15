@@ -52,9 +52,10 @@
     color: #fff;
     background-color: #005aab;
     font-size: 10px;
-    padding: 0 10px;
+    padding: 2px 15px;
     border-radius: 5px;
-    font-size: bold;
+    font-size: 12px;
+    font-weight: 600;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1), 0 4px 21px rgba(0, 0, 0, 0.1);
     top: 10px;
 }
@@ -66,12 +67,12 @@
     color: #fff;
     background-color: #02afe6;
     font-size: 10px;
-    padding: 0 10px;
+    padding: 2px 15px;
     border-radius: 5px;
-    font-size: bold;
+    font-size: 12px;
+    font-weight: 600;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1), 0 4px 21px rgba(0, 0, 0, 0.1);
     top: 10px;
-
 }
 
 .rentIconOne {
@@ -118,3 +119,36 @@
 .rentCategory p span {
     color: #b3b3b3;
 }
+
+@media (min-width: 1024px) and (max-width:2000px) {
+    .rentFeature h1 {
+        font-size: 30px;
+    }
+    .rentFeature button {
+        font-size: 12px;
+    }
+    .rentSpanLeft {
+        font-size: 8px;
+    }
+    .rentSpanRight {
+        font-size: 8px;
+    }
+    .rentIconOne {
+        font-size: 20px;
+    }
+    .rentIconTwo {
+        font-size: 20px;
+    }
+    .rentCategory h5 {
+        font-size: 10px;
+    }
+    .rentCategory p {
+        font-size: 8px;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1100px) {
+
+}
+
+@media (min-width: 300px) and (max-width: 700px) {}
