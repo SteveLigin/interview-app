@@ -1,0 +1,115 @@
+
+.sale {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.saleFeature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 75px;
+}
+
+.saleSplit {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:13px
+}
+
+.saleFeature h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.saleFeature button {
+    border: none;
+    padding: 10px 30px;
+    background-color: #005aab;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.saleImages {
+    padding: 0 65px;
+    position: relative;
+}
+
+.saleImages img {
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.saleSpanLeft {
+    position: absolute;
+    margin-top: 10px;
+    left: 80px;
+    color: #fff;
+    background-color: #005aab;
+    font-size: 10px;
+    padding: 0 10px;
+    border-radius: 5px;
+    font-size: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1), 0 4px 21px rgba(0, 0, 0, 0.1);
+    top:10px;
+}
+
+.saleSpanRight {
+    position: absolute;
+    margin-top: 10px;
+    left: 150px;
+    color: #fff;
+    background-color: #02afe6;
+    font-size: 10px;
+    padding: 0 10px;
+    border-radius: 5px;
+    font-size: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1), 0 4px 21px rgba(0, 0, 0, 0.1);
+    top:10px;
+    
+}
+
+.saleIconOne {
+    position: absolute;
+    bottom: 80px;
+    left: 280px;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1), 0 4px 21px rgba(0, 0, 0, 0.1);
+    font-size: 25px;
+}
+
+.saleIconTwo {
+    position: absolute;
+    bottom: 80px;
+    left: 325px;
+    color: #fff;
+    font-size: 25px;
+}
+
+.saleCategory {
+    width: 280px;
+    background-color: #fff;
+    color: #000;
+    position: absolute;
+    bottom: 20px;
+    left: 75px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 21px rgba(0, 0, 0, 1);
+}
+
+.saleCategory h5 {
+    font-size: 9px;
+    color: #000;
+    font-weight: bold;
+}
+
+.saleCategory p {
+    font-size: 10px;
+    color: #000;
+    font-weight: bold;
+}
+
+.saleCategory p span {
+    color: #b3b3b3;
+}

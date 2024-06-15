@@ -1,0 +1,48 @@
+.blog {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f8f8f8;
+}
+
+
+.blog h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.blogSplit {
+    display: flex;
+    justify-content: space-between;
+    gap: 13px
+}
+
+
+
+.blogImages {
+    padding: 0 65px;
+}
+
+.blogImages img {
+    width: 300px;
+    height: 250px;
+}
+
+.blogImages span {
+    color: #6d9fcd;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.blogImages h5 {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.blogImages p {
+    font-size: 9px;
+    color: #c7c7c7;
+}
