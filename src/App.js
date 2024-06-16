@@ -6,6 +6,7 @@ import Sale from "./components/sale/Sale";
 import Blogs from "./components/blogs/Blogs";
 import Aboutus from "./components/aboutus/AboutUs";
 import RealEstate from "./components/realestate/RealEstate";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <RealEstate />
       <Sale />
       <Blogs />
+      <Footer />
     </div>
   );
 }

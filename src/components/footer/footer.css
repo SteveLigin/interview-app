@@ -1,0 +1,181 @@
+.FooterAll{
+    background-color: #005aab;
+    padding: 50px;
+    color: white;
+}
+
+.foot{
+    color: #99bddd;
+    
+}
+.FooterContact{
+    font-size: 12px;
+}
+
+.FooterMain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.FooterSecond{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Footernews{
+    justify-content: flex-end;
+    
+}
+
+.Footerheader{
+    margin-left: 10px;
+    font-size: 12px;
+    
+}
+.footerSiteCon{
+    display: flex;
+    gap: 65px;
+    margin-top: 10px;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+
+.Footerpara{
+    flex: 0.9;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.footerCopyR{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.FooterCopy{
+    flex-grow: 1;
+    font-size: 12px;
+}
+.FooterWhats{
+    color: white;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+.FootBut{
+    color: white;
+    background-color: #005aab;
+    font-size: 13px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.Footerinpu{
+    width: 300px;
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 5px;
+    border: none
+}
+
+.foodernewslet{
+    margin-left: 0px;
+}
+
+.Footerlogo{
+    width: 250px;
+}
+
+@media (min-width: 1024px) and (max-width: 3000px){
+    
+}
+
+@media (min-width: 700px) and (max-width: 1023px){
+    .FooterMain {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .FooterSecond {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 20px;
+    }
+    .Footerpara {
+        justify-content: space-between;
+        font-size: 12px;
+        margin-top: 15px;
+        margin-left: 10px;
+        width: 450px;
+    }
+    .footerSiteCon {
+        text-align: start;
+        margin-left: 105px;
+    }
+    .footerCopyR {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 27px;
+        margin-top: 10px;
+        align-items: center;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 700px){
+    .Footerlogo {
+        width: 200px;
+    }
+    .Footernews {
+        margin-top: 10px;
+    }
+    .FootBut {
+        color: white;
+        background-color: #005aab;
+        font-size: 13px;
+        padding: 10px 30px;
+        border-radius: 5px;
+        border: 1px solid white;
+        margin: 10px;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-left: 90px;
+    }
+    .Footerheader {
+        margin-left: 10px;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .Footerpara {
+        flex: 0.9 1;
+        justify-content: space-between;
+        font-size: 12px;
+        margin-top: 15px;
+        margin-left: 10px;
+        text-align: justify;
+    }
+    .footerSiteCon {
+        display: flex;
+        gap: 65px;
+        margin-top: 10px;
+        flex-wrap: wrap;
+        margin-top: 34px;
+    }
+    .footerCopyR {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 29px;
+    }
+    .FooterWhats{
+        margin: 0 15px;
+    }
+}
