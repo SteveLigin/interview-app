@@ -1,0 +1,71 @@
+.RealAll {
+  background-image: url("../../assets/1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding-bottom: 40px;
+}
+
+.Realestate {
+  padding-top: 5%;
+}
+
+.RealContent {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: 500;
+  gap: 50px;
+}
+
+.Realpara {
+  font-size: 7px;
+  font-weight: 300;
+}
+
+.realcon {
+  text-align: center;
+  font-weight: 300;
+}
+
+.RealHead {
+  text-align: center;
+  font-weight: 300;
+  color: white;
+}
+
+@media (min-width: 1024px) and (max-width: 3000px) {
+  .RealContent {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 500;
+  }
+  .realcon {
+    font-size: 13px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1023px) {
+  .RealContent {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 500;
+    gap: 15px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 700px) {
+  .RealContent {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 500;
+    gap: 50px;
+  }
+}

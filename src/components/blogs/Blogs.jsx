@@ -30,7 +30,7 @@ export default function Blogs() {
                         <div className="blogImages" key={item.id}>
                             <img src={item.blogPic} alt="blog" className="blogImage" />
                             <h5>July 2, 2020</h5>
-                            <h5>Oil price fall and real estate market</h5>
+                            <h3>Oil price fall and real estate market</h3>
                             <p>Oil Prices have dropped significantly in the last year. How has the real estate market in Oman reacted and what does the future hold?...</p>
                         </div>
                 ))}

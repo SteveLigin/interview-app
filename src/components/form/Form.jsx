@@ -1,8 +1,7 @@
 import React from "react";
 import "./form.css";
-import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
-import ControlPointIcon from '@mui/icons-material/ControlPoint';
-
+import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
+import ControlPointIcon from "@mui/icons-material/ControlPoint";
 
 export default function Form() {
   return (
@@ -16,28 +15,40 @@ export default function Form() {
         <div className="formContentOne">
           <div className="formTypes">
             <p>Types</p>
-            <h3>All Types <ArrowDropDownIcon style={{ cursor: "pointer" }} /></h3>
+            <h3>
+              All Types <ArrowDropDownIcon style={{ cursor: "pointer" }} />
+            </h3>
           </div>
           <div className="formRightBorder"></div>
           <div className="formTypes">
             <p>Types</p>
-            <h3> All Cities <ArrowDropDownIcon style={{ cursor: "pointer" }} /></h3>
+            <h3>
+              {" "}
+              All Cities <ArrowDropDownIcon style={{ cursor: "pointer" }} />
+            </h3>
           </div>
         </div>
         <div className="formContenTwo">
           <div className="formTypes">
             <p>Areas</p>
-            <h3>All Areas <ArrowDropDownIcon style={{ cursor: "pointer" }} /></h3>
+            <h3>
+              All Areas <ArrowDropDownIcon style={{ cursor: "pointer" }} />
+            </h3>
           </div>
           <div className="formRightBorder"></div>
           <div className="formTypes">
             <p>Bedrooms</p>
-            <h3>01 <ArrowDropDownIcon style={{ cursor: "pointer" }} /></h3>
+            <h3>
+              01 <ArrowDropDownIcon style={{ cursor: "pointer" }} />
+            </h3>
           </div>
           <div className="formRightBorder"></div>
           <div className="formTypes">
             <p>Bath</p>
-            <h3> 01 <ArrowDropDownIcon style={{ cursor: "pointer" }} /></h3>
+            <h3>
+              {" "}
+              01 <ArrowDropDownIcon style={{ cursor: "pointer" }} />
+            </h3>
           </div>
         </div>
         <div className="formPriceRange">
@@ -46,12 +57,20 @@ export default function Form() {
         </div>
         <div className="formSlider">
           <div>
-            <input type="range" min="0" max="100" value="70" className="formRange" />
+            <input
+              type="range"
+              min="0"
+              max="100"
+              value="70"
+              className="formRange"
+            />
           </div>
-
         </div>
         <div className="formAdvanced">
-          <h3><ControlPointIcon className="controlIcon" />Advanced Search</h3>
+          <h3>
+            <ControlPointIcon className="controlIcon" />
+            Advanced Search
+          </h3>
           <button>Search</button>
         </div>
       </div>

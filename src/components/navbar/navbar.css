@@ -271,7 +271,7 @@
 }
 
 @media (min-width: 300px) and (max-width: 700px) {
-  form {
+  .form {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -303,13 +303,19 @@
 
   .formRange {
     appearance: none;
-    background: transparent;
-    margin: 0;
-    pointer-events: none;
-    height: 20px;
-    margin-left: 45px;
-    margin-top: 5px;
     width: 210px;
+    height: 3px;
+
+  }
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff; /* Change this to the desired color */
+    cursor: pointer;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
   }
 
   .formAdvanced h3 {
